@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Merriweather&family=Open+Sans:wght@300&family=Playfair+Display:wght@800&family=Poppins:wght@300&family=Raleway&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00081d;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(images/background-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 37px;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.netflix {
+    width: 190px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.main-head .btn>button {
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: red;
+    padding: 6px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-head .btn>button:nth-child(1) {
+    background-color: transparent;
+    border: 0.5px solid white;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.main-head .btn>button:nth-child(2) {
+    width: 95px;
+    height: 33px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+.content>h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 80px;
+}
+
+.content>h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.content>p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.7px;
+
+}
+
+.sign-in {
+    border-radius: 4px;
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.sign-in>input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(176, 168, 168);
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 0px 0px 20px;
+}
+
+.sign-in>input::placeholder {
+    padding: 0px 0px 0px 20px;
+    color: grey;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.sign-in>button {
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.four-box {
+    width: 90%;
+    display: flex;
+    position: relative;
+    top: 10%;
+    bottom: 50px;
+    left: 4%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.four-box .one>img {
+    height: 100px;
+    width: 120px;
+}
+
+.four-box .one {
+    background: linear-gradient(153.61deg, #E40913 -192.17%, #170F48 80.89%);
+    margin: 4px;
+    width: 100%;
+    height: 400px;
+    padding: 40px 35px 80px 20px;
+    border-radius: 8px;
+}
+
+.four-box .one>h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+.four-box .one>p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+/* question section start  */
+.question-section {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.question-section>h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.question-section .all-question>ul {
+    list-style: none;
+    padding: 1.5rem;
+    margin-top: 20px
+}
+
+.question-section .all-question>ul>li {
+    background-color: #2e2855;
+    width: 1130px;
+    height: 80px;
+    font-size: 1.7rem;
+    margin: 10px 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.question-section .sign-karo {
+    margin-left: 25px;
+}
+
+.question-section .sign-karo>p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.sign-in-karo>input {
+    border: none;
+    outline: none;
+    background-color: rgb(67, 62, 62);
+    border: 1px solid rgb(176, 168, 168);
+    width: 30%;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 0px 0px 20px;
+    height: 60px;
+}
+
+.sign-in-karo>input::placeholder {
+    padding: 0px 0px 0px 20px;
+    color: grey;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.sign-in-karo>button {
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-size: 24px;
+    padding: 16px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* footer-----  */
+.footer {
+    margin-top: 20px;
+    padding: 50px 5% 15px;
+    color: #777;
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer>h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .first>a {
+    color: #bab9b9;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.footer .first {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer>button {
+    background-color: rgb(81, 79, 79);
+    border: 0.5px solid white;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+/* media queries  */
+@media only screen and (max-width: 1025px) {
+    .four-box .one {
+        height: 35vh;
+    }
+
+    .four-box .one>h1 {
+        font-size: 2rem;
+    }
+
+    /* question section start  */
+    .question-section {
+        padding: 0px 0px;
+    }
+
+    .question-section .all-question>ul>li {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .four-box {
+        display: block;
+        text-align: center;
+    }
+    
+    .four-box .one>img {
+        height: 90px;
+        width: 100px;
+    }
+    
+    .four-box .one {
+        width: 100%;
+        padding: 90px 35px 80px 20px;
+        margin-bottom: 20px;
+    }
+    /* question section start  */
+    
+    .question-section .all-question>ul>li {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .netflix {
+        width: 110px;
+    }
+
+    .main-head .btn>button {
+        font-size: 10px;
+        padding: 4px 8px;
+        margin-left: 5px;
+    }
+
+    .main-head .btn>button:nth-child(1) {
+        width: 80px;
+        font-size: 14px;
+        font-weight: 600;
+        height: 30px;
+    }
+
+    .main-head .btn>button:nth-child(2) {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .content {
+        top: 23%;
+        text-align: center;
+    }
+
+    .content>h1 {
+        font-size: 2.2rem;
+        line-height: 50px;
+    }
+
+    .content>h3 {
+        font-size: 1.5rem;
+        line-height: 25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .content>p {
+        margin-top: 5px;
+    }
+
+    .sign-in {
+        text-align: center;
+        display: block;
+        overflow: hidden;
+    }
+
+    .sign-in>input {
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px 0px 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    .sign-in>button {
+        margin-left: 0px;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .four-box {
+        display: block;
+    }
+
+    .four-box .one {
+        margin-bottom: 10px;
+        height: 50vh;
+    }
+
+    .four-box .one>p {
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+
+    /* question section start  */
+    .question-section {
+        padding: 0px 0px;
+    }
+
+    .question-section>h1 {
+        font-size: 1.5rem;
+    }
+
+    .question-section .all-question>ul {
+        padding: 0.4rem;
+        margin-top: 10px
+    }
+
+    .question-section .all-question>ul>li {
+        width: 100%;
+        height: 70px;
+        font-size: 1.3rem;
+    }
+
+    .question-section .sign-karo {
+        margin: 10px;
+    }
+
+    .question-section .sign-karo>p {
+        font-size: 1rem;
+    }
+
+    .sign-in-karo>input {
+        width: 100%;
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .sign-in-karo>button {
+        margin-left: auto;
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 9px 20px;
+    }
+
+
+    /* footer-----  */
+    .footer {
+        margin-top: 0px;
+        padding: 20px 5% 15px;
+        margin: 30px 0px;
+    }
+
+    .footer .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer>h2 {
+        margin-bottom: 20px;
+    }
+
+    .footer .first>a {
+        line-height: 25px;
+
+    }
+
+    .footer .row .first {
+        margin-left: 10px;
+    }
+
+    .footer>button {
+        width: 90px;
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+}
